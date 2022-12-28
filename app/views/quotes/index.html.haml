@@ -1,6 +1,6 @@
 %main.container
   .header
     %h1 Quotes
-    = link_to "NEW quote", new_quote_path, class: "btn btn--primary"
+    = link_to "New quote", new_quote_path, class: "btn btn--primary"
 
-  = render "quotes", quotes: @quotes
+  = render @quotes
