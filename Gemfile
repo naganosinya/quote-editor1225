@@ -10,11 +10,12 @@ gem "turbo-rails"
 gem "stimulus-rails"
 gem "cssbundling-rails"
 gem "bootsnap", require: false
-gem 'hamlit-rails'
+gem "hamlit-rails"
+gem "simple_form"
 
 group :development do
   gem "web-console"
-  gem 'html2haml'
+  gem "html2haml"
 end
 
 group :test do
