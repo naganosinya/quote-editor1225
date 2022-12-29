@@ -12,7 +12,8 @@ gem "cssbundling-rails"
 gem "bootsnap", require: false
 gem "hamlit-rails"
 gem "simple_form"
-gem 'redis'
+gem "redis"
+gem "devise"
 
 group :development do
   gem "web-console"
